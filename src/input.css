@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Ravi";
+    src: url("../fonts/ravi font.ttf");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
