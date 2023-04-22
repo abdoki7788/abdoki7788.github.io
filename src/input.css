@@ -1,6 +1,23 @@
+
 @font-face {
     font-family: "Ravi";
     src: url("../fonts/ravi font.ttf");
+}
+@font-face {
+    font-family: "Shabnam";
+    src: url("../fonts/Shabnam.woff");
+}
+@font-face {
+    font-family: "Shabnam-Bold";
+    src: url("../fonts/Shabnam-Bold.woff");
+}
+@font-face {
+    font-family: "Shabnam-Medium";
+    src: url("../fonts/Shabnam-Medium.woff");
+}
+@font-face {
+    font-family: "Shabnam-Light";
+    src: url("../fonts/Shabnam-Light.woff");
 }
 
 @tailwind base;
