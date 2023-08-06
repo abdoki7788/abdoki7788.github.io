@@ -11,7 +11,7 @@
 </head>
 
 <body class="bg-white dark:bg-slate-800">
-    <nav class="bg-transparent w-full z-20 top-0 left-0 shadow dark:shadow-lg dark:border-gray-700">
+    <nav class="bg-transparent w-full z-20 top-0 left-0 dark:border-gray-700">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="https://flowbite.com/" class="flex items-center">
                 <span class="font-ravi text-gray-700 dark:text-gray-50 text-2xl font-black">عبدالرحمان کیانی</span>
@@ -30,56 +30,26 @@
                             fill-rule="evenodd" clip-rule="evenodd"></path>
                     </svg>
                 </button>
-                <button data-collapse-toggle="navbar-sticky" type="button"
-                    class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-                    aria-controls="navbar-sticky" aria-expanded="false">
-                    <span class="sr-only">Open main menu</span>
-                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                </button>
-            </div>
-            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-                <ul
-                    class="flex flex-col p-4 md:p-0 mt-4 border font-shabnam-medium border-gray-100 rounded-lg md:flex-row md:mt-0 md:border-0 dark:border-gray-700">
-                    <li class="mx-2">
-                        <a href="#"
-                            class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
-                            aria-current="page">درباره من</a>
-                    </li>
-                    <li class="mx-2">
-                        <a href="#"
-                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">فعالیت
-                            ها</a>
-                    </li>
-                    <li class="mx-2">
-                        <a href="#"
-                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">سوابق
-                            کاری</a>
-                    </li>
-                    <li class="mx-2">
-                        <a href="#"
-                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">نمونه</a>
-                    </li>
-                </ul>
             </div>
         </div>
     </nav>
     <main class="container mx-auto">
 
-        <div id="profile" class="flex flex-col md:flex-row mt-12 justify-between items-center">
-            <div id="profile-right" class="flex flex-col sm:flex-row items-center justify-center max-sm:mb-6">
-                <img class="w-36 h-w-36 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
+        <div id="profile" class="flex flex-col md:flex-row mt-16 justify-between items-center">
+            <div id="profile-right" class="flex flex-col sm:flex-row justify-center max-sm:mb-6">
+                <img class="w-40 h-w-40 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
                     src="images/22879892593511.jpg" alt="Bordered avatar">
-                <div class="flex flex-col justify-center mx-6">
-                    <h1 class="font-ravi text-gray-700 dark:text-gray-300 text-5xl text-center"><span
-                            class="text-orange-400">عبدالرحمان</span> <span class="text-purple-400">کیانی</span></h1>
+                <div class="flex flex-col justify-between mx-6 py-2">
+                    <div class="flex flex-col">
+                        <h1 class="font-ravi text-gray-700 dark:text-gray-300 text-5xl text-center"><span
+                                class="text-orange-400">عبدالرحمان</span> <span class="text-purple-400">کیانی</span></h1>
+                        <span
+                            class="font-ravi text-gray-900 dark:text-green-200 opacity-50 self-end text-lg max-sm:text-center w-full">Junior
+                            Back-End Developer</span>
+                    </div>
                     <span
-                        class="font-ravi text-gray-900 dark:text-green-200 opacity-50 self-end text-lg max-sm:text-center w-full">Junior
-                        Back-End Developer</span>
+                            class="font-ravi text-gray-900 dark:text-green-200 opacity-50 self-end text-xl max-sm:text-center w-full">
+                            به دنبال کار</span>
                 </div>
             </div>
             <div id="profile-left" class="flex flex-col-reverse md:flex-row-reverse justify-between items-center">
@@ -155,62 +125,65 @@
             </h2>
             <div id="skills-list" class="flex flex-wrap mt-8 items-center justify-center" dir="ltr">
                 <button
-                    class="p-2 border border-dashed rounded border-gray-500 mx-2 my-2 text-gray-800 dark:text-gray-300 font-ravi font-black flex flex-row items-center hover:bg-gray-200 dark:hover:text-white dark:hover:bg-gray-700">
-                    <img src="https://skillicons.dev/icons?i=python&theme=light" class="w-6 mr-2"> Python
+                    class="relative p-3 border bg-yellow-400 dark:bg-yellow-300 shadow-lg transition-all duration-500 hover:bottom-2 shadow-gray-400 dark:shadow-gray-600 border-dashed rounded border-gray-500 mx-2 my-2 text-gray-800 dark:text-gray-800 font-ravi font-black flex flex-row items-center hover:bg-yellow-500 dark:hover:bg-yellow-500">
+                    <!-- <img src="https://skillicons.dev/icons?i=python&theme=light" class="w-6 mr-2"> -->Python 
                 </button>
                 <button
                     class="p-2 border border-dashed rounded border-gray-500 mx-2 my-2 text-gray-800 dark:text-gray-300 font-ravi font-black flex flex-row items-center hover:bg-gray-200 dark:hover:text-white dark:hover:bg-gray-700">
-                    <img src="https://skillicons.dev/icons?i=django&theme=light" class="w-6 mr-2"> Django
+                    <!-- <img src="https://skillicons.dev/icons?i=django&theme=light" class="w-6 mr-2"> -->Django 
                 </button>
                 <button
                     class="p-2 border border-dashed rounded border-gray-500 mx-2 my-2 text-gray-800 dark:text-gray-300 font-ravi font-black flex flex-row items-center hover:bg-gray-200 dark:hover:text-white dark:hover:bg-gray-700">
-                    <img src="https://skillicons.dev/icons?i=fastapi&theme=light" class="w-6 mr-2"> FastAPI
+                    <!-- <img src="https://skillicons.dev/icons?i=fastapi&theme=light" class="w-6 mr-2"> -->FastAPI 
                 </button>
                 <button
                     class="p-2 border border-dashed rounded border-gray-500 mx-2 my-2 text-gray-800 dark:text-gray-300 font-ravi font-black flex flex-row items-center hover:bg-gray-200 dark:hover:text-white dark:hover:bg-gray-700">
-                    <img src="https://skillicons.dev/icons?i=flask&theme=light" class="w-6 mr-2"> Flask
+                    <!-- <img src="https://skillicons.dev/icons?i=flask&theme=light" class="w-6 mr-2"> -->Flask 
                 </button>
                 <button
                     class="p-2 border border-dashed rounded border-gray-500 mx-2 my-2 text-gray-800 dark:text-gray-300 font-ravi font-black flex flex-row items-center hover:bg-gray-200 dark:hover:text-white dark:hover:bg-gray-700">
-                    <img src="https://skillicons.dev/icons?i=html&theme=light" class="w-6 mr-2"> Html
+                    <!-- <img src="https://skillicons.dev/icons?i=html&theme=light" class="w-6 mr-2"> -->Html 
                 </button>
                 <button
                     class="p-2 border border-dashed rounded border-gray-500 mx-2 my-2 text-gray-800 dark:text-gray-300 font-ravi font-black flex flex-row items-center hover:bg-gray-200 dark:hover:text-white dark:hover:bg-gray-700">
-                    <img src="https://skillicons.dev/icons?i=css&theme=light" class="w-6 mr-2"> Css
+                    <!-- <img src="https://skillicons.dev/icons?i=css&theme=light" class="w-6 mr-2"> -->Css 
                 </button>
                 <button
                     class="p-2 border border-dashed rounded border-gray-500 mx-2 my-2 text-gray-800 dark:text-gray-300 font-ravi font-black flex flex-row items-center hover:bg-gray-200 dark:hover:text-white dark:hover:bg-gray-700">
-                    <img src="https://skillicons.dev/icons?i=tailwind&theme=light" class="w-6 mr-2"> TailwindCSS
+                    <!-- <img src="https://skillicons.dev/icons?i=tailwind&theme=light" class="w-6 mr-2"> -->TailwindCSS 
                 </button>
                 <button
                     class="p-2 border border-dashed rounded border-gray-500 mx-2 my-2 text-gray-800 dark:text-gray-300 font-ravi font-black flex flex-row items-center hover:bg-gray-200 dark:hover:text-white dark:hover:bg-gray-700">
-                    <img src="https://skillicons.dev/icons?i=javascript&theme=light" class="w-6 mr-2"> Js
+                    <!-- <img src="https://skillicons.dev/icons?i=javascript&theme=light" class="w-6 mr-2"> -->Js 
                 </button>
                 <button
                     class="p-2 border border-dashed rounded border-gray-500 mx-2 my-2 text-gray-800 dark:text-gray-300 font-ravi font-black flex flex-row items-center hover:bg-gray-200 dark:hover:text-white dark:hover:bg-gray-700">
-                    <img src="https://skillicons.dev/icons?i=vuejs&theme=light" class="w-6 mr-2"> Vue.Js
+                    <!-- <img src="https://skillicons.dev/icons?i=vuejs&theme=light" class="w-6 mr-2"> --> Vue.Js 
                 </button>
                 <button
                     class="p-2 border border-dashed rounded border-gray-500 mx-2 my-2 text-gray-800 dark:text-gray-300 font-ravi font-black flex flex-row items-center hover:bg-gray-200 dark:hover:text-white dark:hover:bg-gray-700">
-                    <img src="https://skillicons.dev/icons?i=figma&theme=light" class="w-6 mr-2"> Figma
+                    <!-- <img src="https://skillicons.dev/icons?i=figma&theme=light" class="w-6 mr-2"> -->Figma 
                 </button>
                 <button
                     class="p-2 border border-dashed rounded border-gray-500 mx-2 my-2 text-gray-800 dark:text-gray-300 font-ravi font-black flex flex-row items-center hover:bg-gray-200 dark:hover:text-white dark:hover:bg-gray-700">
-                    <img src="https://skillicons.dev/icons?i=docker&theme=light" class="w-6 mr-2"> Docker
+                    <!-- <img src="https://skillicons.dev/icons?i=docker&theme=light" class="w-6 mr-2"> -->Docker 
                 </button>
                 <button
                     class="p-2 border border-dashed rounded border-gray-500 mx-2 my-2 text-gray-800 dark:text-gray-300 font-ravi font-black flex flex-row items-center hover:bg-gray-200 dark:hover:text-white dark:hover:bg-gray-700">
-                    <img src="https://skillicons.dev/icons?i=git&theme=light" class="w-6 mr-2"> Git
+                    <!-- <img src="https://skillicons.dev/icons?i=git&theme=light" class="w-6 mr-2"> -->Git 
                 </button>
                 <button
                     class="p-2 border border-dashed rounded border-gray-500 mx-2 my-2 text-gray-800 dark:text-gray-300 font-ravi font-black flex flex-row items-center hover:bg-gray-200 dark:hover:text-white dark:hover:bg-gray-700">
-                    <img src="https://skillicons.dev/icons?i=linux&theme=light" class="w-6 mr-2"> Linux
+                    <!-- <img src="https://skillicons.dev/icons?i=linux&theme=light" class="w-6 mr-2"> -->Linux 
                 </button>
                 <button
                     class="p-2 border border-dashed rounded border-gray-500 mx-2 my-2 text-gray-800 dark:text-gray-300 font-ravi font-black flex flex-row items-center hover:bg-gray-200 dark:hover:text-white dark:hover:bg-gray-700">
-                    <img src="https://skillicons.dev/icons?i=flutter&theme=light" class="w-6 mr-2"> Flutter
+                    <!-- <img src="https://skillicons.dev/icons?i=flutter&theme=light" class="w-6 mr-2"> -->Flutter 
                 </button>
             </div>
+        </div>
+        <div id="skills" class="flex flex-col px-8 md:px-24 sm:px-16 my-24">
+                
         </div>
     </main>
     <script src="scripts/dark-mode.js"></script>
