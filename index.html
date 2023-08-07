@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/dist/output.css">
     <link rel="stylesheet" href="src/fonts/font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="src/tabler-icons/tabler-icons.min.css">
     <title>عبدالرحمان کیانی | برنامه نویس بک اند</title>
 </head>
 
@@ -36,20 +37,28 @@
     <main class="container mx-auto">
 
         <div id="profile" class="flex flex-col md:flex-row mt-16 justify-between items-center">
-            <div id="profile-right" class="flex flex-col sm:flex-row justify-center max-sm:mb-6">
+            <div id="profile-right" class="flex flex-col sm:flex-row justify-center max-sm:mb-6 max-sm:items-center">
                 <img class="w-40 h-w-40 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
                     src="src/images/22879892593511.jpg" alt="Bordered avatar">
-                <div class="flex flex-col justify-between mx-6 py-2">
+                <div class="flex flex-col justify-between mx-6 py-4">
                     <div class="flex flex-col">
                         <h1 class="font-ravi text-gray-700 dark:text-gray-300 text-5xl text-center"><span
                                 class="text-orange-400">عبدالرحمان</span> <span class="text-purple-400">کیانی</span></h1>
                         <span
-                            class="font-ravi text-gray-900 dark:text-green-200 opacity-50 self-end text-lg max-sm:text-center w-full">Junior
+                            class="font-ravi text-gray-900 dark:text-green-300 opacity-50 self-end text-xl max-sm:text-center w-full">Junior
                             Back-End Developer</span>
                     </div>
-                    <span
-                            class="font-ravi text-gray-900 dark:text-green-200 opacity-50 self-end text-xl max-sm:text-center w-full">
-                            به دنبال کار</span>
+                    <div class="flex justify-start max-sm:justify-center max-sm:mt-6">
+                        <span class="font-ravi text-gray-900 dark:text-white opacity-50 self-end text-lg max-sm:text-center">
+                            <i class="ti ti-device-desktop-search"></i>
+                            جویای کار
+                        </span>
+                        <span class="text-white mx-3">|</span>
+                        <span class="font-ravi text-gray-900 dark:text-white opacity-50 self-end text-lg max-sm:text-center">
+                            <i class="ti ti-military-rank"></i>
+                            مشمول سربازی
+                        </span>
+                    </div>
                 </div>
             </div>
             <div id="profile-left" class="flex flex-col-reverse md:flex-row-reverse justify-between items-center">
@@ -65,12 +74,12 @@
                     </a>
                 </div>
                 <div class="flex md:flex-col justify-center">
-                    <button type="button"
+                    <a type="button" href="tel:09023768475"
                         class="font-ravi focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 md:mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">تماس
-                        با من</button>
-                    <button type="button"
+                        با من</a>
+                    <a type="button" href="mailto:abdoki7788@gmail.com"
                         class="font-ravi md:mt-2 py-2.5 px-5 max-md:mr-4 md:mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">ارسال
-                        ایمیل</button>
+                        ایمیل</a>
                 </div>
             </div>
         </div>

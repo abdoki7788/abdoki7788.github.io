@@ -630,9 +630,14 @@ video {
   margin-bottom: 6rem;
 }
 
-.mx-12 {
-  margin-left: 3rem;
-  margin-right: 3rem;
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 
 .mb-2 {
@@ -659,10 +664,6 @@ video {
   margin-top: 2rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
 .inline {
   display: inline;
 }
@@ -687,8 +688,8 @@ video {
   width: 2.5rem;
 }
 
-.w-36 {
-  width: 9rem;
+.w-40 {
+  width: 10rem;
 }
 
 .w-5 {
@@ -701,14 +702,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-48 {
-  width: 12rem;
-}
-
-.w-40 {
-  width: 10rem;
 }
 
 .max-w-screen-xl {
@@ -733,6 +726,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-center {
@@ -857,9 +854,24 @@ video {
   padding-bottom: 0.625rem;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .text-center {
@@ -876,6 +888,10 @@ video {
 
 .font-shabnam-light {
   font-family: Shabnam-Light;
+}
+
+.font-shabnam {
+  font-family: Shabnam;
 }
 
 .text-2xl {
@@ -906,11 +922,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
 }
 
 .font-black {
@@ -1145,6 +1156,16 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+:is(.dark .dark\:text-green-400) {
+  --tw-text-opacity: 1;
+  color: rgb(74 222 128 / var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:text-green-300) {
+  --tw-text-opacity: 1;
+  color: rgb(134 239 172 / var(--tw-text-opacity));
+}
+
 :is(.dark .dark\:shadow-gray-600) {
   --tw-shadow-color: #4b5563;
   --tw-shadow: var(--tw-shadow-colored);
@@ -1198,6 +1219,22 @@ video {
 @media not all and (min-width: 640px) {
   .max-sm\:mb-6 {
     margin-bottom: 1.5rem;
+  }
+
+  .max-sm\:mt-4 {
+    margin-top: 1rem;
+  }
+
+  .max-sm\:mt-6 {
+    margin-top: 1.5rem;
+  }
+
+  .max-sm\:items-center {
+    align-items: center;
+  }
+
+  .max-sm\:justify-center {
+    justify-content: center;
   }
 
   .max-sm\:text-center {
